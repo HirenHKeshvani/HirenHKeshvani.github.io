@@ -64,22 +64,6 @@ python -m http.server 8000
 
 Then visit [http://localhost:8000](http://localhost:8000).
 
-## Deploy to GitHub Pages
-
-1. Create a public repository named **`HirenHKeshvani.github.io`** (must match your GitHub username).
-2. Push the site files to the **`main`** branch at the repository root.
-3. In the repo: **Settings -> Pages -> Build and deployment -> Source:** Deploy from branch **`main`**, folder **`/ (root)`**.
-4. After a few minutes, the site is live at [https://hirenhkeshvani.github.io](https://hirenhkeshvani.github.io).
-
-### Files to include in the repo
-
-- `index.html`, `css/style.css`, `js/main.js`
-- `images/` (both photos)
-- `Hiren_Keshvani.pdf`
-- `.nojekyll`, `.gitignore`
-
-Do **not** commit backups (e.g. `*.bak`), OS files, or secrets.
-
 ## Contact
 
 | | |
