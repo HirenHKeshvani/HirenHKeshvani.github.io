@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="color-scheme" content="dark light" />
+  <script>
+    (function () {
+      var t = localStorage.getItem("theme");
+      if (t === "light" || t === "dark") document.documentElement.setAttribute("data-theme", t);
+    })();
+  </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Hiren Keshvani - Backend Developer specializing in Java and Spring Boot. Production APIs, distributed systems, and secure services." />
+  <title>Hiren Keshvani | Backend Developer</title>
+  <link rel="icon" href="images/hiren-professional.jpg" type="image/jpeg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header" id="top">
+    <nav class="nav container" aria-label="Primary">
+      <a class="logo" href="#top">HK<span class="logo-dot">.</span></a>
+      <div class="nav-actions">
+        <button type="button" class="theme-toggle" aria-label="Switch to light mode" title="Toggle color theme">
+          <span class="theme-icon theme-icon-sun" aria-hidden="true">&#9728;</span>
+          <span class="theme-icon theme-icon-moon" aria-hidden="true">&#9790;</span>
+        </button>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu" aria-label="Open menu">
+        <span></span><span></span><span></span>
+        </button>
+      </div>
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact" class="nav-cta">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main id="main">
+    <section class="hero">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="container hero-inner">
+        <div class="hero-grid">
+          <div class="hero-content">
+            <p class="hero-eyebrow"><span class="status-dot"></span> Actively seeking opportunities</p>
+            <h1 class="hero-title">Hi, I'm <span class="gradient-text">Hiren Keshvani</span></h1>
+            <p class="hero-role">Backend Developer &middot; Java &amp; Spring Boot</p>
+            <p class="hero-lead">4+ years building production-grade <strong>backend systems</strong> with <strong>Java</strong> and <strong>Spring Boot</strong>—scalable REST APIs, secure auth, event-driven workflows, and solid data layers—with <strong>React</strong> for product UIs when the role needs it.</p>
+            <div class="hero-actions">
+              <a href="#projects" class="btn btn-primary">View projects</a>
+              <a href="#contact" class="btn btn-ghost">Get in touch</a>
+              <a href="Hiren_Keshvani.pdf" class="btn btn-ghost" download>Download resume</a>
+            </div>
+            <div class="hero-social">
+              <a href="https://github.com/HirenHKeshvani" target="_blank" rel="noopener noreferrer">GitHub</a>
+              <a href="https://linkedin.com/in/hirenkeshvani" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+              <a href="https://x.com/keshvani_hiren" target="_blank" rel="noopener noreferrer">X</a>
+              <a href="mailto:hirenkeshvani16187@gmail.com">Email</a>
+            </div>
+            <div class="hero-meta">
+              <span>Ahmedabad, India</span>
+              <span class="meta-sep" aria-hidden="true">&middot;</span>
+              <a href="mailto:hirenkeshvani16187@gmail.com">hirenkeshvani16187@gmail.com</a>
+            </div>
+          </div>
+          <figure class="hero-photo-wrap">
+            <img class="hero-photo" src="images/hiren-professional.jpg" alt="Hiren Keshvani" width="480" height="640" fetchpriority="high" />
+          </figure>
+        </div>
+      </div>
+    </section>
+    <section id="about" class="section">
+      <div class="container">
+        <header class="section-header"><span class="section-label">01</span><h2>About</h2></header>
+        <div class="about-grid">
+          <div class="about-main">
+            <figure class="about-photo-wrap">
+              <img class="about-photo" src="images/hiren-casual.jpg" alt="Hiren Keshvani" width="400" height="500" loading="lazy" />
+            </figure>
+            <p class="about-text">Backend-focused engineer with 4+ years shipping production systems in Java and Spring Boot—REST APIs, RBAC, integrations, and performance at scale—with React experience on multi-role SaaS products (payments, scheduling, and automated workflows).</p>
+          </div>
+          <ul class="about-highlights">
+            <li><span class="highlight-num">4+</span><span class="highlight-label">Years experience</span></li>
+            <li><span class="highlight-num">2</span><span class="highlight-label">Major platforms shipped</span></li>
+            <li><span class="highlight-num">8.68</span><span class="highlight-label">CGPA (BE IT)</span></li>
+          </ul>
+          <aside class="about-aside" aria-label="Personal interests">
+            <p class="about-aside-kicker">off the clock</p>
+            <p class="about-aside-note">Cat person, film nerd, cricket on TV and in the park, and snooker when there is a table.</p>
+            <ul class="interest-tags">
+              <li>Cats</li>
+              <li>Movies</li>
+              <li>Cricket</li>
+              <li>Snooker</li>
+            </ul>
+          </aside>
+        </div>
+      </div>
+    </section>
+    <section id="experience" class="section section-alt">
+      <div class="container">
+        <header class="section-header"><span class="section-label">02</span><h2>Experience</h2></header>
+        <ol class="timeline">
+          <li class="timeline-item">
+            <div class="timeline-marker"></div>
+            <article class="card timeline-card">
+              <div class="card-top"><h3>Software Developer</h3><time datetime="2022-07">Jul 2022 - Present</time></div>
+              <p class="card-company">Deltafixes Technologies LLP &middot; Ahmedabad</p>
+              <ul>
+                <li>Backend-focused enterprise apps with Java, Spring Boot, JPA, MySQL, Redis, and React.</li>
+                <li>REST APIs for user management, RBAC, scheduling, notifications, and integrations.</li>
+                <li>Integrated MailerLite, Google Calendar/Meet, and Zoho CRM.</li>
+                <li>Security: input sanitization, rate limiting, JWT auth, and token blacklisting.</li>
+                <li>Performance: query optimization, Redis caching, and Kafka-based background processing.</li>
+              </ul>
+            </article>
+          </li>
+          <li class="timeline-item">
+            <div class="timeline-marker"></div>
+            <article class="card timeline-card">
+              <div class="card-top"><h3>Programmer Analyst Trainee</h3><time datetime="2022-01/2022-03">Jan 2022 - Mar 2022</time></div>
+              <p class="card-company">Meditab Software &middot; Ahmedabad</p>
+              <ul>
+                <li>REST APIs for healthcare systems using .NET and PostgreSQL.</li>
+                <li>Relational schemas with normalization, constraints, and indexing.</li>
+              </ul>
+            </article>
+          </li>
+        </ol>
+      </div>
+    </section>
+    <section id="projects" class="section">
+      <div class="container">
+        <header class="section-header"><span class="section-label">03</span><h2>Projects</h2></header>
+        <div class="projects-grid">
+          <article class="card project-card project-featured">
+            <div class="project-badge">Featured</div>
+            <h3>Immigration Questions</h3>
+            <p class="project-desc">End-to-end immigration management platform with public website, mobile apps (iOS and Android), multi-role portals, Stripe payments, Kafka, and third-party integrations.</p>
+            <ul class="project-tags"><li>Spring Boot</li><li>React</li><li>Kafka</li><li>Redis</li><li>Stripe</li><li>JasperReports</li></ul>
+            <ul class="project-details">
+              <li>Scalable REST APIs for onboarding, leads, scheduling, and notifications.</li>
+              <li>Stripe subscriptions with secure checkout and renewal workflows.</li>
+              <li>JWT auth, rate limiting, token blacklisting, and input validation.</li>
+              <li>Background jobs, push notifications, and document generation.</li>
+            </ul>
+            <div class="project-links">
+              <p class="project-links-label">Immigration Questions</p>
+              <div class="project-links-row">
+                <a href="https://immigrationquestion.com/" target="_blank" rel="noopener noreferrer" class="btn btn-ghost btn-sm">Website</a>
+                <a href="https://users.immigrationquestion.com/" target="_blank" rel="noopener noreferrer" class="btn btn-ghost btn-sm">User portal</a>
+                <a href="https://admin.immigrationquestion.com/" target="_blank" rel="noopener noreferrer" class="btn btn-ghost btn-sm">Admin portal</a>
+                <a href="https://apps.apple.com/us/app/immigrationquestion-com-users/id6630370780" target="_blank" rel="noopener noreferrer" class="btn btn-ghost btn-sm">App Store</a>
+                <a href="https://play.google.com/store/apps/details?id=com.myls.immigration_q" target="_blank" rel="noopener noreferrer" class="btn btn-ghost btn-sm">Google Play</a>
+              </div>
+            </div>
+            <div class="project-sub">
+              <h4 class="project-sub-title">MyLegalSoftware</h4>
+              <p class="project-sub-desc">3-in-1 legal case management and marketing platform powering immigration and general practice workflows.</p>
+              <div class="project-links project-links-nested">
+                <p class="project-links-label">Platform</p>
+                <div class="project-links-row">
+                  <a href="https://mylegalsoftware.com/" target="_blank" rel="noopener noreferrer" class="btn btn-ghost btn-sm">MyLegalSoftware</a>
+                </div>
+              </div>
+              <div class="project-myls-item">
+                <h4 class="project-sub-title">My Law Service</h4>
+                <p class="project-desc">Legal services platform with REST APIs and server-side rendered UI.</p>
+                <ul class="project-tags"><li>Spring MVC</li><li>Hibernate</li><li>JSP</li><li>MySQL</li></ul>
+                <ul class="project-details project-details-compact">
+                  <li>Refactored legacy codebase and improved maintainability.</li>
+                  <li>Optimized data-sharing APIs - <strong>40% faster</strong> load times.</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section id="skills" class="section section-alt">
+      <div class="container">
+        <header class="section-header"><span class="section-label">04</span><h2>Skills</h2></header>
+        <div class="skills-grid">
+          <div class="skill-group card"><h3>Languages</h3><div class="skill-chips"><span>Java</span><span>JavaScript</span></div></div>
+          <div class="skill-group card"><h3>Frameworks</h3><div class="skill-chips"><span>Spring Boot</span><span>Spring MVC</span><span>Hibernate</span><span>JPA</span><span>React</span><span>JUnit</span></div></div>
+          <div class="skill-group card"><h3>Frontend</h3><div class="skill-chips"><span>HTML</span><span>JSP</span><span>jQuery</span><span>Bootstrap</span><span>Expo</span></div></div>
+          <div class="skill-group card"><h3>Backend &amp; Data</h3><div class="skill-chips"><span>REST APIs</span><span>Redis</span><span>MySQL</span><span>PostgreSQL</span><span>Kafka</span><span>JasperReports</span></div></div>
+          <div class="skill-group card"><h3>DevOps &amp; Tools</h3><div class="skill-chips"><span>Docker</span><span>AWS</span><span>Git</span><span>Bitbucket Pipelines</span><span>GitHub Copilot</span></div></div>
+        </div>
+      </div>
+    </section>
+    <section id="education" class="section">
+      <div class="container">
+        <header class="section-header"><span class="section-label">05</span><h2>Education &amp; Certifications</h2></header>
+        <div class="edu-grid">
+          <article class="card edu-card">
+            <h3>B.E. Information Technology</h3>
+            <p class="card-company">Marwadi Education Foundation's Group of Institutions</p>
+            <p class="edu-meta"><time datetime="2018-07/2022-06">2018 - 2022</time> &middot; CGPA <strong>8.68 / 10</strong></p>
+          </article>
+          <div class="certs card">
+            <h3>Certifications</h3>
+            <ul class="cert-list">
+              <li><span>Oracle Cloud Native Developer</span><time datetime="2025-11">Nov 2025</time></li>
+              <li><span>Oracle Java Foundations</span><time datetime="2025-10">Oct 2025</time></li>
+              <li><span>Introduction to Database and SQL Querying</span><time datetime="2024-05">May 2024</time></li>
+              <li><span>Mastering Data Structures with Java</span><time datetime="2023-11">Nov 2023</time></li>
+              <li><span>JSP, Servlets and JDBC</span><time datetime="2022-08">Aug 2022</time></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="section section-contact">
+      <div class="container">
+        <header class="section-header"><span class="section-label">06</span><h2>Contact</h2></header>
+        <p class="contact-lead">Open to full-time <strong>backend</strong> roles (Java / Spring Boot). Full-stack opportunities where backend is the core focus.</p>
+        <div class="contact-links">
+          <a href="mailto:hirenkeshvani16187@gmail.com" class="contact-card"><span class="contact-icon" aria-hidden="true">@</span><span class="contact-label">Email</span><span class="contact-value">hirenkeshvani16187@gmail.com</span></a>
+          <a href="tel:+917990547294" class="contact-card"><span class="contact-icon" aria-hidden="true">#</span><span class="contact-label">Phone</span><span class="contact-value">+91 79905 47294</span></a>
+          <a href="https://linkedin.com/in/hirenkeshvani" class="contact-card" target="_blank" rel="noopener noreferrer"><span class="contact-icon" aria-hidden="true">in</span><span class="contact-label">LinkedIn</span><span class="contact-value">/in/hirenkeshvani</span></a>
+          <a href="https://github.com/HirenHKeshvani" class="contact-card" target="_blank" rel="noopener noreferrer"><span class="contact-icon" aria-hidden="true">{ }</span><span class="contact-label">GitHub</span><span class="contact-value">HirenHKeshvani</span></a>
+          <a href="https://x.com/keshvani_hiren" class="contact-card" target="_blank" rel="noopener noreferrer"><span class="contact-icon" aria-hidden="true">X</span><span class="contact-label">X</span><span class="contact-value">@keshvani_hiren</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Hiren Keshvani</p>
+      <a href="#top" class="back-top">Back to top</a>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
