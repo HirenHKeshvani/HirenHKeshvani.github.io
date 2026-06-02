@@ -19,8 +19,9 @@
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
+  <div id="top" class="page-top" tabindex="-1" aria-hidden="true"></div>
   <a class="skip-link" href="#main">Skip to content</a>
-  <header class="site-header" id="top">
+  <header class="site-header">
     <nav class="nav container" aria-label="Primary">
       <a class="logo" href="#top">HK<span class="logo-dot">.</span></a>
       <div class="nav-actions">
@@ -142,11 +143,11 @@
           <article class="card project-card project-featured">
             <div class="project-badge">Featured</div>
             <h3>Immigration Questions</h3>
-            <p class="project-desc">End-to-end immigration management platform with public website, mobile apps (iOS and Android), multi-role portals, Stripe payments, Kafka, and third-party integrations.</p>
-            <ul class="project-tags"><li>Spring Boot</li><li>React</li><li>Kafka</li><li>Redis</li><li>Stripe</li><li>JasperReports</li></ul>
+            <p class="project-desc">End-to-end immigration management platform with public website, mobile apps (iOS and Android), multi-role portals, payments, and third-party integrations.</p>
+            <ul class="project-tags" aria-label="Technologies used"><li>Spring Boot</li><li>React</li><li>Kafka</li><li>Redis</li><li>Stripe</li><li>JasperReports</li></ul>
             <ul class="project-details">
               <li>Scalable REST APIs for onboarding, leads, scheduling, and notifications.</li>
-              <li>Stripe subscriptions with secure checkout and renewal workflows.</li>
+              <li>Subscription checkout and renewal workflows with secure payment handling.</li>
               <li>JWT auth, rate limiting, token blacklisting, and input validation.</li>
               <li>Background jobs, push notifications, and document generation.</li>
             </ul>
@@ -171,8 +172,8 @@
               </div>
               <div class="project-myls-item">
                 <h4 class="project-sub-title">My Law Service</h4>
-                <p class="project-desc">Legal services platform with REST APIs and server-side rendered UI.</p>
-                <ul class="project-tags"><li>Spring MVC</li><li>Hibernate</li><li>JSP</li><li>MySQL</li></ul>
+                <p class="project-desc">Legal services platform with server-side rendered UI and optimized data APIs.</p>
+                <ul class="project-tags" aria-label="Technologies used"><li>Spring MVC</li><li>Hibernate</li><li>JSP</li><li>MySQL</li></ul>
                 <ul class="project-details project-details-compact">
                   <li>Refactored legacy codebase and improved maintainability.</li>
                   <li>Optimized data-sharing APIs - <strong>40% faster</strong> load times.</li>

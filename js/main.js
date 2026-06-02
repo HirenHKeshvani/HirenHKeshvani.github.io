@@ -77,4 +77,13 @@
     },
     { passive: true }
   );
+
+  document.querySelectorAll('a[href="#top"]').forEach((link) => {
+    link.addEventListener("click", (e) => {
+      e.preventDefault();
+      const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+      window.scrollTo({ top: 0, behavior: reduceMotion ? "auto" : "smooth" });
+      history.replaceState(null, "", window.location.pathname + window.location.search);
+    });
+  });
 })();
